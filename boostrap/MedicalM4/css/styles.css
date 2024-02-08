@@ -1,0 +1,383 @@
+.container {
+    max-width: 1140px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section {
+    padding: 80px 0px;
+}
+
+.sticky-top {
+    padding: 20px 0px;
+}
+
+.section--banner {
+    background-image: url(../images/bg.jpg);
+    background-position: 50% 62%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 99;
+}
+
+.banner_content h1 {
+    font-size: 55px;
+    color: rgb(19, 9, 71);
+}
+
+.section--banner::after {
+    right: 0;
+    top: 0;
+    position: absolute;
+    opacity: 0.6;
+    background-color: rgb(255, 255, 255);
+    bottom: 0;
+    left: 0;
+    content: "";
+    z-index: -1;
+}
+
+.banner__content p {
+    margin-top: 100px;
+    letter-spacing: 2px;
+}
+
+.section-btn {
+    padding-bottom: 220px;
+}
+
+.btn-primary:hover {
+    background-color: #130947 !important;
+}
+
+.rounded-circle {
+    padding: 30px;
+}
+
+.heart::before {
+    position: absolute;
+    content: "";
+    background: url(../images/heart.svg)no-repeat;
+    top: 10px;
+    left: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.Features__img {
+    background: #130947;
+    height: 100px;
+    width: 100px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.22);
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 20px;
+}
+
+.Dentistry__content {
+    margin-top: 90px;
+}
+
+.Dentistry__content-img img {
+    max-width: 100%;
+    width: 730px;
+    height: 487px;
+}
+
+.Dentistry__content p {
+    width: 613px;
+}
+
+.signature_img img {
+    width: 115px;
+    height: 75px;
+}
+
+.medical-symbol {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.img_inner {
+    right: 40px;
+    bottom: 48%;
+    position: absolute;
+}
+
+.img_outer {
+    border-radius: 100%;
+    padding: 60px;
+    border: 3px dashed #e3e3e3;
+    position: absolute;
+    z-index: -1;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.img_outer2 {
+    border-radius: 100%;
+    padding: 100px;
+    border: 3px dashed #e3e3e3;
+    position: absolute;
+    z-index: -1;
+    left: -60px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.section--philosophy {
+    background-color: #e6ecf2;
+    padding: 60px 0px;
+}
+
+.section--philosophy h6 {
+    letter-spacing: 2px;
+}
+
+.philosophy__card {
+    width: 318px;
+    display: block;
+    background-color: #ffffff;
+    border-bottom: 1px solid #4f87fb;
+    border-radius: 4px;
+    padding: 15px;
+    padding-bottom: 20px
+}
+
+.card__img img {
+    width: 289px;
+    height: 192px;
+}
+
+.card_icon {
+    width: 64px;
+    border-radius: 100%;
+    background-color: #4f87fb;
+    color: #ffffff;
+    font-size: 1.8rem;
+    transition: 0.6s all;
+    z-index: 9;
+    position: relative;
+    height: 64px;
+    top: -30px;
+    right: -110px;
+}
+
+.multiple-items .slick-next {
+    padding: 25px;
+    border-radius: 50%;
+    color: #ffffff;
+    background: #4f87fb;
+    opacity: 0.5;
+    right: 5px;
+}
+
+.multiple-items .slick-prev {
+    padding: 25px;
+    border-radius: 50%;
+    color: #ffffff;
+    background: #4f87fb;
+    opacity: 0.5;
+    left: -46px;
+}
+
+.multiple-items .slick-next:before {
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: white
+}
+
+.multiple-items .slick-dots li button:before {
+    font-size: 65px;
+    top: 15px;
+    left: -30px;
+    opacity: 0.75;
+    color: white
+}
+
+.multiple-items .slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #4f87fb;
+}
+
+.multiple-items .slick-prev:hover,
+.multiple-items .slick-prev:focus,
+.multiple-items .slick-next:hover,
+.multiple-items.slick-next:focus {
+    background: #4f87fb;
+    opacity: 1;
+}
+
+.section--skills {
+    background: url(../images/background3.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 0px;
+    position: relative;
+    z-index: 99;
+}
+
+.skills__overlay {
+    opacity: 0.9;
+    background-color: rgb(79, 135, 251);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.skills__image {
+        background-color: #ffffff;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        text-align: center;
+        position: relative;
+        top: 5px;
+        left: 0px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+}
+.skills__image-content{
+   
+    margin-left: 20px;
+   
+}
+.skills__image-content a{
+    text-decoration: none;
+}
+.pie_progress img{
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    border: 8px solid black;
+  
+  
+}
+.pie_progress p{
+    color: #4f87fb;
+    position: absolute;
+    top: 60px;
+    left: 54px;
+    font-weight: 600;
+    font-size: 29px;
+    margin: 0;
+}
+.patients__content h2{
+    font-size: 13px;
+    color: #4f87fb;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.patients__list{
+    margin-top: 90px;
+}
+.patients__list ul{
+   
+    justify-content: space-around;
+    border-bottom: 1px solid #dee2e6;
+    display: flex;
+    padding-left: 0;
+  padding-bottom: 10px;
+    list-style: none;
+}
+.patients__list ul li a{
+    text-decoration: none;
+    
+}
+.patients__list img{
+    margin-right: 10px;
+}
+.active-bt{
+    position: relative;
+}
+ .active-bt::after{
+    border-bottom: 2px solid #4f87fb;
+    color: #28303f;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 35px;
+    left: 0;
+    content: '';
+}
+.patients__list ul li  a{
+    color: rgb(109, 122, 140);
+}
+.patients__image img{
+    width: 560px;
+    height: 360px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(79, 110, 173, 0.1);
+}
+.patients__text p{
+    color: #6d7a8c;
+}
+.patients__item ul{
+    padding-left: 0;
+    list-style-type: none;
+}
+.patients__item  ul li{
+    font-size: 1em;
+    color: #6d7a8c;
+    font-weight: 300;
+    padding-left: 32px;
+    margin-bottom: 16px;
+    
+}
+.right{
+    position: relative;
+}
+.right::before{
+    font-weight: 900;
+    color: rgb(79, 135, 251);
+    position: absolute;
+    content: "✓";
+    width: 25px;
+    height: 25px;
+    top: 0;
+    left: 14px;
+}
+.section--team{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #e6ecf2;
+}
+.card-img{
+    width: 221px;
+    height: 221px;
+    border-radius: 100%;
+
+}
+.card{
+    padding: 40px 55px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: none;
+}
+.card-text {
+    font-weight: 600;
+    color: #6d7a8c;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+/* .card:hover .card-img{
+    max-width: 100%;
+    border-color: #4f87fb;
+    transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+} */
+
+
